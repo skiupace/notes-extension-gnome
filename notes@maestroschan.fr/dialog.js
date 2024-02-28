@@ -2,7 +2,10 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-import { St, Clutter, GObject } from 'gi://';
+import St from 'gi://St';
+import Clutter from 'gi://Clutter';
+import GObject from 'gi://GObject';
+
 import * as ModalDialog from 'resource:///org/gnome/shell/ui/modalDialog.js';
 
 export const CustomModalDialog = GObject.registerClass(
