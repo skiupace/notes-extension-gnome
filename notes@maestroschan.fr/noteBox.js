@@ -9,8 +9,6 @@ import * as GrabHelper from 'resource:///org/gnome/shell/ui/grabHelper.js';
 // import * as ExtensionUtils from 'resource:///org/gnome/shell/misc/extensionUtils.js';
 // import Me from ExtensionUtils.getCurrentExtension();
 
-import { getCurrentExtension as _ } from 'resource:///org/gnome/shell/misc/extensionUtils.js';
-
 import * as Menus from './menus';
 import * as Extension from './extension';
 import * as Dialog from './dialog';
