@@ -8,11 +8,12 @@ A GNOME Shell extension providing customizable sticky notes.
 
 Version 22 has been released the 20/11/2021
 
-| GNOME Shell version | Extension version 23 | 22  | 20  | 19  | 18  |
+| GNOME Shell version | Extension version 24 | 23  | 22  | 20  | 19  | 18  |
 |---------------------|----------------------|-----|-----|-----|-----|
-| **42**              | Yes                  | No  |     |     |     |
-| **41**              | Yes                  | No  |     |     |     |
-| **40**              | ??                   | No  |     |     |     |
+| **45**              | Yes                  | No  | No  |     |     |
+| **42**              | No                   | Yes | No  |     |     |
+| **41**              | No                   | Yes | No  |     |     |
+| **40**              | ??                   | ??  | No  |     |     |
 | **3.38**            |                      | Yes | Yes | Yes |     |
 | **3.36**            |                      | Yes | Yes | Yes | Yes |
 | **3.34**            |                      |     |     | ??  | Yes |
@@ -57,7 +58,7 @@ the session, and enable the extension.
 
 ## Storage
 
-Data are stored on your disk: files are in `~/.local/share/notes@maestroschan.fr`
+Data are stored on your disk: files are in `~/.local/share/notes@maestroschan-skiupace.fr`
 
 <!-- TODO
 

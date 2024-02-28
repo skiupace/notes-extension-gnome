@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-07 16:26+0200\n"
+"POT-Creation-Date: 2022-08-07 16:28+0200\n"
 "PO-Revision-Date: 2022-08-07 20:42+0100\n"
 "Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
 "Language-Team: \n"
@@ -178,13 +178,13 @@ msgstr ""
 "I file che terminano con \"_text\" contengono il testo scritto nelle note"
 
 #: notes@maestroschan.fr/prefs.ui
-#| msgid "Back"
 msgid "Backup"
 msgstr "Backup"
 
 #: notes@maestroschan.fr/prefs.ui
 msgid "Explanations about how to use this extension can be found here:"
-msgstr "Spiegazioni su come utilizzare questa estensione possono essere trovate qui:"
+msgstr ""
+"Spiegazioni su come utilizzare questa estensione possono essere trovate qui:"
 
 #: notes@maestroschan.fr/prefs.ui
 msgid "Online help manual"
