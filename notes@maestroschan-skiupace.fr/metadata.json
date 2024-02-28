@@ -7,7 +7,7 @@
 		"45"
 	],
 	"url": "https://github.com/skiupace/notes-extension-gnome",
-	"uuid": "notes@maestroschan.fr",
+	"uuid": "notes@maestroschan-skiupace.fr",
 	"settings-schema": "org.gnome.shell.extensions.notes-extension",
 	"version": 24
 }
