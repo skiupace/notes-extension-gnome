@@ -5,7 +5,7 @@ A GNOME Shell extension providing customizable sticky notes.
 ----
 
 ### Disclaimer!!!
-This extension has been ported to GNOME 45 Shell by: "Skiupace", The Original Extension Linked [HERE](https://github.com/maoschanz/notes-extension-gnome)
+This extension has been ported to GNOME 45 Shell BY: "Skiupace", The Original Extension Linked [HERE](https://github.com/maoschanz/notes-extension-gnome)
 
 ----
 
