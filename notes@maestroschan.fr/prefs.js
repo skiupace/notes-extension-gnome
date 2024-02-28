@@ -2,20 +2,8 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-const{ GObject, Gtk, Gdk, GdkPixbuf, GLib } = imports.gi;
-const Mainloop = imports.mainloop;
-
-const Gettext = imports.gettext.domain('notes-extension');
-const _ = Gettext.gettext;
-
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
-
-function init() {
-	ExtensionUtils.initTranslations();
-}
-
-let SETTINGS = ExtensionUtils.getSettings();
+import { GObject, Gtk, Gdk, GdkPixbuf, GLib } from 'gi://';
+import {ExtensionPreferences, gettext as _} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 //------------------------------------------------------------------------------
 

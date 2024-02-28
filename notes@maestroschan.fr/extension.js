@@ -2,19 +2,13 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-const { St, Shell, GLib, Gio, Meta } = imports.gi;
-const PanelMenu = imports.ui.panelMenu;
-const Panel = imports.ui.panel;
-const Main = imports.ui.main;
-const Mainloop = imports.mainloop;
+import { St, Shell, GLib, Gio, Meta } from 'gi://';
+import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
+import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-const NoteBox = Me.imports.noteBox;
-
-const Gettext = imports.gettext.domain('notes-extension');
-const _ = Gettext.gettext;
+import * as NoteBox from './noteBox.js';
 
 //------------------------------------------------------------------------------
 

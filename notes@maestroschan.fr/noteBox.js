@@ -2,20 +2,20 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-const { Clutter, St, GLib, Gio } = imports.gi;
-const Main = imports.ui.main;
-const ShellEntry = imports.ui.shellEntry;
-const GrabHelper = imports.ui.grabHelper;
+import { Clutter, St, GLib, Gio } from 'gi://';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+import * as GrabHelper from 'resource:///org/gnome/shell/ui/grabHelper.js';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
+// import * as ExtensionUtils from 'resource:///org/gnome/shell/misc/extensionUtils.js';
+// import Me from ExtensionUtils.getCurrentExtension();
 
-const Menus = Me.imports.menus;
-const Extension = Me.imports.extension;
-const Dialog = Me.imports.dialog;
+import { getCurrentExtension as _ } from 'resource:///org/gnome/shell/misc/extensionUtils.js';
 
-const Gettext = imports.gettext.domain('notes-extension');
-const _ = Gettext.gettext;
+import * as Menus from './menus';
+import * as Extension from './extension';
+import * as Dialog from './dialog';
+
+import { gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 // ~/.local/share/notes@maestroschan.fr
 const PATH = GLib.build_pathv('/', [GLib.get_user_data_dir(), 'notes@maestroschan.fr']);

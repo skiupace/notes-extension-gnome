@@ -2,10 +2,10 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-const { St, Clutter, GObject } = imports.gi;
-const ModalDialog = imports.ui.modalDialog;
+import { St, Clutter, GObject } from 'gi://';
+import * as ModalDialog from 'resource:///org/gnome/shell/ui/modalDialog.js';
 
-var CustomModalDialog = GObject.registerClass(
+export const CustomModalDialog = GObject.registerClass(
 class CustomModalDialog extends ModalDialog.ModalDialog {
 	_init(textTitle, bodyWidget, textOkButton, callback) {
 		super._init();

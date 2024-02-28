@@ -2,19 +2,17 @@
 // GPL v3
 // Copyright 2018-2021 Romain F. T.
 
-const { Clutter, St } = imports.gi;
-const Main = imports.ui.main;
-const PopupMenu = imports.ui.popupMenu;
-const ShellEntry = imports.ui.shellEntry;
-const Signals = imports.signals;
-const Util = imports.misc.util;
+import { Clutter, St } from 'gi://';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
+import * as Signals from 'resource:///org/gnome/shell/misc/signals.js';
+import * as Util from 'resource:///org/gnome/shell/misc/util.js';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
-const Extension = Me.imports.extension;
+import * as ExtensionUtils from 'resource:///org/gnome/shell/misc/extensionUtils.js';
+import Me from ExtensionUtils.getCurrentExtension();
+import Extension from Me.imports.extension;
 
-const Gettext = imports.gettext.domain('notes-extension');
-const _ = Gettext.gettext;
+import {gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
 
 const PRESET_COLORS = {
 	'red': [200, 0, 0],
