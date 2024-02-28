@@ -3,7 +3,7 @@
 A GNOME Shell extension providing customizable sticky notes.
 
 ### Disclaimer!!!
-This extension is ported to GNOME 45 Shell By: Skiupace, the original extension linked [HERE]
+This extension is ported to GNOME 45 Shell BY: "Skiupace", The Original Extension Linked [HERE]
 
 ----
 
