@@ -5,6 +5,8 @@ A GNOME Shell extension providing customizable sticky notes.
 # Disclaimer!!!
 This extension is ported to GNOME 45 Shell By: Skiupace, the original extension linked [HERE]
 
+----
+
 ![](./notes@maestroschan-skiupace.fr/screenshots/about_picture.png)
 
 ### Compatible versions
