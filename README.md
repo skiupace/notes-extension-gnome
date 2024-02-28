@@ -2,11 +2,11 @@
 
 A GNOME Shell extension providing customizable sticky notes.
 
-![](./notes@maestroschan.fr/screenshots/about_picture.png)
+![](./notes@maestroschan-skiupace.fr/screenshots/about_picture.png)
 
 ### Compatible versions
 
-Version 22 has been released the 20/11/2021
+Version 24 has been released in the 28/2/2024
 
 | GNOME Shell version | Extension version 24 | 23  | 22  | 20  | 19  | 18  |
 |---------------------|----------------------|-----|-----|-----|-----|-----|
@@ -60,28 +60,5 @@ the session, and enable the extension.
 
 Data are stored on your disk: files are in `~/.local/share/notes@maestroschan-skiupace.fr`
 
-<!-- TODO
-
-si pas de motion ni de release après 1000ms, bouger la note de force (et si
-besoin relâcher le bouton) ⇒ attention justperfection2 m'a donné de quoi ne plus
-faire de la merde en termes de move au moins. (j'y crois moyen mais heh)
-https://old.reddit.com/r/gnome/comments/h08ysq/sticky_notes_extension_now_compatible_with_gnome/fuzz33o/
-https://gitlab.gnome.org/justperfection.channel/gnome-shell-extension-samples/-/blob/master/samples/move-container@example.com/extension.js
-https://www.youtube.com/watch?v=2qVn6CjlDUQ
-
-(à revérifier) pas de raise correct quand on focus une note sans focus automatique
-
-"éditer le titre" dans le menu :
-le bouton de grab aurait le titre en label, et clic-droit enroulerait
-
-
-    -->
-
-<!-- useful commands to develop:
-
-```
-gjs /usr/share/gnome-shell/org.gnome.Shell.Extensions
-gnome-extensions prefs notes@maestroschan.fr
-```
-    -->
+----
 
